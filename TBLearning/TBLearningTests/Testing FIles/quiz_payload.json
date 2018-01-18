@@ -1,0 +1,294 @@
+{
+   "sessionId":"03896393175cb6e72a65df9b32a1604493d1146d0013413cc65c64ac5abf2c64",
+   "quiz":{
+      "_id":"58cf43d0507783a09e799a26",
+      "description":"The Danger Quiz.",
+      "text":"Warning. Do not take the Danger Quiz! This is very important. Do not take this quiz, it is dangerous.",
+      "availableDate":"2017-01-01T00:00:00Z",
+      "expiryDate":"2018-01-01T00:00:00Z",
+      "questions":[
+         {
+            "_id":"58cf4424507783a09e799a2b",
+            "title":"Wire Question",
+            "text":"Choose a wire.",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Yellow wire.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Blue wire.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"Green wire.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"Black wire.",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a2c",
+            "title":"Exit Question",
+            "text":"Choose an exit strategy.",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Front door.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Back door.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"Fire escape.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"There is no exit.",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a2d",
+            "title":"Clothing Question",
+            "text":"Choose an article of clothing.",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Shoes.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Sweater.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"Jeans.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"Jacket.",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a2e",
+            "title":"Travel Question.",
+            "text":"Choose a method of travel.",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Plane.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Car.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"Train.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"Walking.",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a2f",
+            "title":"Animal Question",
+            "text":"Choose an animal.",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Dog.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Porcupine.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"Leech.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"Spider.",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a30",
+            "title":"Pocket Question.",
+            "text":"What is in your pockets?",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Money.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Cell phone.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"Nothing.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"A little bit of pocket lint.",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a31",
+            "title":"Voting Question",
+            "text":"Did you vote in the last presidential election?",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Yes.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Yes...unfortunately.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"No.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"What's the point?",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a32",
+            "title":"Military Question",
+            "text":"Choose a branch of the military",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Army.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Navy.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"Marine Corps.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"Air Force.",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a33",
+            "title":"Vehicle Question.",
+            "text":"Choose a vehicle.",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Bulldozer!",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Car.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"Truck.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"Van.",
+                  "sortOrder":3
+               }
+            ]
+         },
+         {
+            "_id":"58cf4424507783a09e799a34",
+            "title":"Pill Question",
+            "text":"Choose very wisely: red pill or blue pill?",
+            "pointsPossible":4,
+            "availableAnswers":[
+               {
+                  "value":"A",
+                  "text":"Red pill.",
+                  "sortOrder":0
+               },
+               {
+                  "value":"B",
+                  "text":"Blue pill.",
+                  "sortOrder":1
+               },
+               {
+                  "value":"C",
+                  "text":"I have no idea what you are talking about.",
+                  "sortOrder":2
+               },
+               {
+                  "value":"D",
+                  "text":"Why not both?",
+                  "sortOrder":3
+               }
+            ]
+         }
+      ],
+      "timed":true,
+      "timedLength":20
+   }
+}

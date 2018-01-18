@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C5B34D1FDDEECD004DA6AA /* answerOptionWithImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C5B34C1FDDEECC004DA6AA /* answerOptionWithImageTableViewCell.swift */; };
+		4A73E6DBBE7D7F45154F1064 /* Pods_TBLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA2B0E4786DCBF739F51FD2 /* Pods_TBLearning.framework */; };
+		581731A61FC2612C000F950D /* quesTestCTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581731A51FC2612B000F950D /* quesTestCTV.swift */; };
+		581731A81FC262FC000F950D /* questionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581731A71FC262FC000F950D /* questionCollectionViewCell.swift */; };
+		581731AC1FC29D05000F950D /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581731AB1FC29D05000F950D /* NotificationNameExtension.swift */; };
+		5851E60F1FC5275000FB7C4D /* choiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5851E60E1FC5275000FB7C4D /* choiceView.xib */; };
+		5851E6131FC528EC00FB7C4D /* AnswerOptionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5851E6121FC528EC00FB7C4D /* AnswerOptionButtonView.swift */; };
+		5851E6171FC552C400FB7C4D /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5851E6161FC552C400FB7C4D /* CustomSegue.swift */; };
+		586217941FC38D9100ACBD28 /* answerOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586217921FC38D9100ACBD28 /* answerOptionCell.xib */; };
+		63FF49578B60E8F9196638BC /* Pods_TBLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF7B014D6B33F05B3040757 /* Pods_TBLearningTests.framework */; };
+		CE013AB91F846B3700EA8EFD /* CourseListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE013AB71F846B3700EA8EFD /* CourseListTableViewController.swift */; };
+		CE013ABA1F846B3700EA8EFD /* CourseTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE013AB81F846B3700EA8EFD /* CourseTVCell.swift */; };
+		CE032D231FDC550A002E8D47 /* keypad.png in Resources */ = {isa = PBXBuildFile; fileRef = CE032D221FDC5509002E8D47 /* keypad.png */; };
+		CE0363C21FBA9D9F00D1B30A /* QuizCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0363C11FBA9D9E00D1B30A /* QuizCollectionViewCell.swift */; };
+		CE0410EB1F81904000CBC87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0410EA1F81904000CBC87F /* AppDelegate.swift */; };
+		CE0410ED1F81904000CBC87F /* TBLLogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0410EC1F81904000CBC87F /* TBLLogInVC.swift */; };
+		CE0410F01F81904000CBC87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0410EE1F81904000CBC87F /* Main.storyboard */; };
+		CE0410F31F81904000CBC87F /* TBLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE0410F11F81904000CBC87F /* TBLearning.xcdatamodeld */; };
+		CE0410F51F81904000CBC87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0410F41F81904000CBC87F /* Assets.xcassets */; };
+		CE0410F81F81904000CBC87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0410F61F81904000CBC87F /* LaunchScreen.storyboard */; };
+		CE0411031F81904100CBC87F /* CoreDataManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0411021F81904100CBC87F /* CoreDataManagerTest.swift */; };
+		CE0411111F8190A200CBC87F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0411101F8190A200CBC87F /* CoreDataManager.swift */; };
+		CE0411171F819C4B00CBC87F /* QuizPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0411161F819C4B00CBC87F /* QuizPersistence.swift */; };
+		CE04111D1F81BBBD00CBC87F /* QuizPersistenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04111C1F81BBBD00CBC87F /* QuizPersistenceTest.swift */; };
+		CE0411201F81BE3900CBC87F /* quiz_payload.json in Resources */ = {isa = PBXBuildFile; fileRef = CE04111F1F81BE3800CBC87F /* quiz_payload.json */; };
+		CE0411221F81C23900CBC87F /* QuizExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0411211F81C23900CBC87F /* QuizExtension.swift */; };
+		CE046BED1FD4BFB600AE4A88 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = CE046BEC1FD4BFB500AE4A88 /* clock.png */; };
+		CE0752B61FBD49F200735AC0 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0752B51FBD49F200735AC0 /* AnswerTableViewCell.swift */; };
+		CE0752B81FBD567D00735AC0 /* QuizQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0752B71FBD567C00735AC0 /* QuizQuestionVC.swift */; };
+		CE1E4F4B1F8348B8004716FA /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E4F4A1F8348B8004716FA /* DesignableButton.swift */; };
+		CE1E4F531F834BAC004716FA /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E4F521F834BAC004716FA /* BounceButton.swift */; };
+		CE1E4F551F834BFF004716FA /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E4F541F834BFF004716FA /* DesignableView.swift */; };
+		CE1E4F5B1F835384004716FA /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E4F5A1F8352C6004716FA /* AlertController.swift */; };
+		CE1E4F5D1F83601A004716FA /* UserLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E4F5C1F83601A004716FA /* UserLoginVC.swift */; };
+		CE3EA1BF1FDB9935006DAA9A /* StatisticVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EA1BE1FDB9935006DAA9A /* StatisticVC.swift */; };
+		CE4732991F9039F000E6F2AE /* IndividualQuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4732981F9039F000E6F2AE /* IndividualQuizService.swift */; };
+		CE60A6A61F8FDA0700715FC8 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60A6A51F8FDA0700715FC8 /* LoginService.swift */; };
+		CE60A6A81F8FE01700715FC8 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60A6A71F8FE01700715FC8 /* CourseModel.swift */; };
+		CE6F99EA1FBF9E1A00BD0E88 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F99E91FBF9E1A00BD0E88 /* LaunchViewController.swift */; };
+		CE6F99EC1FBFA0C900BD0E88 /* Logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F99EB1FBFA0C900BD0E88 /* Logo2.png */; };
+		CE7452BF1FBFFE7400FFA715 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7452BE1FBFFE7400FFA715 /* StringExtension.swift */; };
+		CE7452C11FC0005200FFA715 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7452C01FC0005200FFA715 /* DataManager.swift */; };
+		CE7452CE1FC212A900FFA715 /* UserInfoCoreDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7452CB1FC212A800FFA715 /* UserInfoCoreDataExtension.swift */; };
+		CE7452CF1FC212A900FFA715 /* UserPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7452CC1FC212A800FFA715 /* UserPersistence.swift */; };
+		CE7452D01FC212A900FFA715 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7452CD1FC212A800FFA715 /* UserModel.swift */; };
+		CE811ABE1FDDF8E400E15DA5 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE811ABB1FDDF8B000E15DA5 /* Charts.framework */; };
+		CE811ABF1FDDF8E400E15DA5 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE811ABB1FDDF8B000E15DA5 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE8E31C21FACDEF500C05CFA /* BaseServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E31C11FACDEF500C05CFA /* BaseServiceClient.swift */; };
+		CE8E31C41FACDF4000C05CFA /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E31C31FACDF4000C05CFA /* ServiceClient.swift */; };
+		CE8E31C61FACE21000C05CFA /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E31C51FACE21000C05CFA /* Log.swift */; };
+		CE8FC18C1FC73DE500ADFC7A /* ic_esi_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8FC18A1FC73DE400ADFC7A /* ic_esi_logo.png */; };
+		CE8FC18D1FC73DE500ADFC7A /* ic_math_and_cs.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8FC18B1FC73DE500ADFC7A /* ic_math_and_cs.png */; };
+		CE8FC18F1FC73E8100ADFC7A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8FC18E1FC73E8100ADFC7A /* logo.png */; };
+		CE8FC1951FC7418000ADFC7A /* TBLearningLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8FC1941FC7418000ADFC7A /* TBLearningLogo.png */; };
+		CEA4EF531F8DB56500470A84 /* QuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4EF521F8DB56500470A84 /* QuizService.swift */; };
+		CEA76A8E1FD8A94B00F66AD0 /* GroupQuizPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA76A8D1FD8A94B00F66AD0 /* GroupQuizPersistence.swift */; };
+		CEA76A901FD8AAFC00F66AD0 /* GroupQuizExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA76A8F1FD8AAFC00F66AD0 /* GroupQuizExtension.swift */; };
+		CEA76A961FD8B18F00F66AD0 /* answerOptionWithImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA76A941FD8B18F00F66AD0 /* answerOptionWithImageTableViewCell.xib */; };
+		CEA76A981FD8BE0900F66AD0 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA76A971FD8BE0900F66AD0 /* UIImageExtension.swift */; };
+		CEC1ABC31FC79AD800BB8031 /* groupQuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1ABC11FC79AD800BB8031 /* groupQuizTableViewCell.swift */; };
+		CEC1ABC41FC79AD800BB8031 /* groupQuizTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1ABC21FC79AD800BB8031 /* groupQuizTableViewCell.xib */; };
+		CEC1ABC61FC7B4D300BB8031 /* groupQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1ABC51FC7B4D300BB8031 /* groupQuizVC.swift */; };
+		CEC1FD9F1FDDEA2300519052 /* answerOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1FD9E1FDDEA2300519052 /* answerOptionTableViewCell.swift */; };
+		CECC85621FBA534500633467 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC85611FBA534500633467 /* QuizVC.swift */; };
+		CECC87F21FD9BF0700478F22 /* GroupQuizDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC87F11FD9BF0700478F22 /* GroupQuizDataService.swift */; };
+		CECC87F51FD9E5B200478F22 /* groupQuizWithImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC87F31FD9E5B200478F22 /* groupQuizWithImageTableViewCell.swift */; };
+		CECC87F61FD9E5B200478F22 /* groupQuizWithImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECC87F41FD9E5B200478F22 /* groupQuizWithImageTableViewCell.xib */; };
+		CEE3FF621FB129DD004EC231 /* GroupQuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3FF611FB129DD004EC231 /* GroupQuizService.swift */; };
+		CEF816A81FB63EC6009C355B /* customLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF816A61FB63EC6009C355B /* customLabelView.swift */; };
+		CEF816AA1FB64A04009C355B /* GroupQuizProgressLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF816A91FB64A04009C355B /* GroupQuizProgressLabel.swift */; };
+		CEF816AE1FB65C8B009C355B /* leader.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF816AD1FB65C8B009C355B /* leader.png */; };
+		CEF816B21FB6641A009C355B /* leaderBackLabelStyle.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF816B11FB66419009C355B /* leaderBackLabelStyle.png */; };
+		CEF816B41FB66529009C355B /* member.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF816B31FB66528009C355B /* member.png */; };
+		CEF816B61FB66C3E009C355B /* GroupProgressTVCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF816B51FB66C3E009C355B /* GroupProgressTVCellTableViewCell.swift */; };
+		CEF816B81FB66C82009C355B /* WaitingRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF816B71FB66C82009C355B /* WaitingRoomVC.swift */; };
+		CEFDE3B61FD6770F006C1923 /* QuestionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDE3B51FD6770F006C1923 /* QuestionExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE0410FF1F81904100CBC87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0410DF1F81904000CBC87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0410E61F81904000CBC87F;
+			remoteInfo = TBLearning;
+		};
+		CE811ABA1FDDF8B000E15DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE811AB51FDDF8B000E15DA5 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		CE811ABC1FDDF8B000E15DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE811AB51FDDF8B000E15DA5 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		CE811AC01FDDF8E400E15DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE811AB51FDDF8B000E15DA5 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEF792D01FDCD21500829A02 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE811ABF1FDDF8E400E15DA5 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14C5B34C1FDDEECC004DA6AA /* answerOptionWithImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerOptionWithImageTableViewCell.swift; sourceTree = "<group>"; };
+		2742A731906935A0D27D55A5 /* Pods-TBLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBLearningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBLearningTests/Pods-TBLearningTests.release.xcconfig"; sourceTree = "<group>"; };
+		4556C6E2AB7CE91BF0AD4FF9 /* Pods-TBLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBLearningTests/Pods-TBLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		581731A51FC2612B000F950D /* quesTestCTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quesTestCTV.swift; sourceTree = "<group>"; };
+		581731A71FC262FC000F950D /* questionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionCollectionViewCell.swift; sourceTree = "<group>"; };
+		581731AB1FC29D05000F950D /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		5851E60E1FC5275000FB7C4D /* choiceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = choiceView.xib; sourceTree = "<group>"; };
+		5851E6121FC528EC00FB7C4D /* AnswerOptionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerOptionButtonView.swift; sourceTree = "<group>"; };
+		5851E6161FC552C400FB7C4D /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		586217921FC38D9100ACBD28 /* answerOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = answerOptionCell.xib; sourceTree = "<group>"; };
+		74056DC66AB7AE1999238DCF /* Pods-TBLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBLearning/Pods-TBLearning.release.xcconfig"; sourceTree = "<group>"; };
+		99872BF3F6E924A8BF225544 /* Pods-TBLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBLearning/Pods-TBLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		9CF7B014D6B33F05B3040757 /* Pods_TBLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA2B0E4786DCBF739F51FD2 /* Pods_TBLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE013A681F84071F00EA8EFD /* courseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courseIcon.png; sourceTree = "<group>"; };
+		CE013AB71F846B3700EA8EFD /* CourseListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListTableViewController.swift; sourceTree = "<group>"; };
+		CE013AB81F846B3700EA8EFD /* CourseTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTVCell.swift; sourceTree = "<group>"; };
+		CE032D221FDC5509002E8D47 /* keypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad.png; sourceTree = "<group>"; };
+		CE0363C11FBA9D9E00D1B30A /* QuizCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE0410E71F81904000CBC87F /* TBLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0410EA1F81904000CBC87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE0410EC1F81904000CBC87F /* TBLLogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBLLogInVC.swift; sourceTree = "<group>"; };
+		CE0410EF1F81904000CBC87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE0410F21F81904000CBC87F /* TBLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TBLearning.xcdatamodel; sourceTree = "<group>"; };
+		CE0410F41F81904000CBC87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE0410F71F81904000CBC87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE0410F91F81904000CBC87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0410FE1F81904100CBC87F /* TBLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0411021F81904100CBC87F /* CoreDataManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerTest.swift; sourceTree = "<group>"; };
+		CE0411041F81904100CBC87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0411101F8190A200CBC87F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		CE0411161F819C4B00CBC87F /* QuizPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPersistence.swift; sourceTree = "<group>"; };
+		CE04111C1F81BBBD00CBC87F /* QuizPersistenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPersistenceTest.swift; sourceTree = "<group>"; };
+		CE04111F1F81BE3800CBC87F /* quiz_payload.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz_payload.json; sourceTree = "<group>"; };
+		CE0411211F81C23900CBC87F /* QuizExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizExtension.swift; sourceTree = "<group>"; };
+		CE046BEC1FD4BFB500AE4A88 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		CE0752B51FBD49F200735AC0 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		CE0752B71FBD567C00735AC0 /* QuizQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionVC.swift; sourceTree = "<group>"; };
+		CE1E4F411F8324CD004716FA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		CE1E4F451F83300A004716FA /* umsl-campus-msc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umsl-campus-msc.png"; sourceTree = "<group>"; };
+		CE1E4F461F83300A004716FA /* umsl-lib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umsl-lib.png"; sourceTree = "<group>"; };
+		CE1E4F4A1F8348B8004716FA /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CE1E4F521F834BAC004716FA /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		CE1E4F541F834BFF004716FA /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CE1E4F561F834CD7004716FA /* userLogInIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userLogInIcon.png; sourceTree = "<group>"; };
+		CE1E4F5A1F8352C6004716FA /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		CE1E4F5C1F83601A004716FA /* UserLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginVC.swift; sourceTree = "<group>"; };
+		CE3EA1BE1FDB9935006DAA9A /* StatisticVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticVC.swift; sourceTree = "<group>"; };
+		CE4732981F9039F000E6F2AE /* IndividualQuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualQuizService.swift; sourceTree = "<group>"; };
+		CE60A6A51F8FDA0700715FC8 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		CE60A6A71F8FE01700715FC8 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		CE6F99E91FBF9E1A00BD0E88 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		CE6F99EB1FBFA0C900BD0E88 /* Logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2.png; sourceTree = "<group>"; };
+		CE7452BE1FBFFE7400FFA715 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		CE7452C01FC0005200FFA715 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CE7452CB1FC212A800FFA715 /* UserInfoCoreDataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoCoreDataExtension.swift; sourceTree = "<group>"; };
+		CE7452CC1FC212A800FFA715 /* UserPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPersistence.swift; sourceTree = "<group>"; };
+		CE7452CD1FC212A800FFA715 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CE811AB51FDDF8B000E15DA5 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		CE8E31C11FACDEF500C05CFA /* BaseServiceClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseServiceClient.swift; sourceTree = "<group>"; };
+		CE8E31C31FACDF4000C05CFA /* ServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceClient.swift; sourceTree = "<group>"; };
+		CE8E31C51FACE21000C05CFA /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		CE8FC18A1FC73DE400ADFC7A /* ic_esi_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_esi_logo.png; sourceTree = "<group>"; };
+		CE8FC18B1FC73DE500ADFC7A /* ic_math_and_cs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_math_and_cs.png; sourceTree = "<group>"; };
+		CE8FC18E1FC73E8100ADFC7A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CE8FC1941FC7418000ADFC7A /* TBLearningLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TBLearningLogo.png; sourceTree = "<group>"; };
+		CEA4EF521F8DB56500470A84 /* QuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizService.swift; sourceTree = "<group>"; };
+		CEA76A8D1FD8A94B00F66AD0 /* GroupQuizPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupQuizPersistence.swift; sourceTree = "<group>"; };
+		CEA76A8F1FD8AAFC00F66AD0 /* GroupQuizExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupQuizExtension.swift; sourceTree = "<group>"; };
+		CEA76A941FD8B18F00F66AD0 /* answerOptionWithImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = answerOptionWithImageTableViewCell.xib; sourceTree = "<group>"; };
+		CEA76A971FD8BE0900F66AD0 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		CEC1ABC11FC79AD800BB8031 /* groupQuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groupQuizTableViewCell.swift; sourceTree = "<group>"; };
+		CEC1ABC21FC79AD800BB8031 /* groupQuizTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = groupQuizTableViewCell.xib; sourceTree = "<group>"; };
+		CEC1ABC51FC7B4D300BB8031 /* groupQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groupQuizVC.swift; sourceTree = "<group>"; };
+		CEC1FD9E1FDDEA2300519052 /* answerOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = answerOptionTableViewCell.swift; path = ../../IndividualQuiz/tableViewCell/answerOptionTableViewCell.swift; sourceTree = "<group>"; };
+		CECC85611FBA534500633467 /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		CECC87F11FD9BF0700478F22 /* GroupQuizDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupQuizDataService.swift; sourceTree = "<group>"; };
+		CECC87F31FD9E5B200478F22 /* groupQuizWithImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groupQuizWithImageTableViewCell.swift; sourceTree = "<group>"; };
+		CECC87F41FD9E5B200478F22 /* groupQuizWithImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = groupQuizWithImageTableViewCell.xib; sourceTree = "<group>"; };
+		CED3A9A91F896A880058CABB /* Utilities & Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities & Extensions.swift"; sourceTree = "<group>"; };
+		CEE3FF611FB129DD004EC231 /* GroupQuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupQuizService.swift; sourceTree = "<group>"; };
+		CEF816A61FB63EC6009C355B /* customLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customLabelView.swift; sourceTree = "<group>"; };
+		CEF816A91FB64A04009C355B /* GroupQuizProgressLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupQuizProgressLabel.swift; sourceTree = "<group>"; };
+		CEF816AD1FB65C8B009C355B /* leader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leader.png; sourceTree = "<group>"; };
+		CEF816B11FB66419009C355B /* leaderBackLabelStyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaderBackLabelStyle.png; sourceTree = "<group>"; };
+		CEF816B31FB66528009C355B /* member.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = member.png; sourceTree = "<group>"; };
+		CEF816B51FB66C3E009C355B /* GroupProgressTVCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupProgressTVCellTableViewCell.swift; sourceTree = "<group>"; };
+		CEF816B71FB66C82009C355B /* WaitingRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoomVC.swift; sourceTree = "<group>"; };
+		CEFDE3B51FD6770F006C1923 /* QuestionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE0410E41F81904000CBC87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A73E6DBBE7D7F45154F1064 /* Pods_TBLearning.framework in Frameworks */,
+				CE811ABE1FDDF8E400E15DA5 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0410FB1F81904100CBC87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF49578B60E8F9196638BC /* Pods_TBLearningTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07302B0530653FF4424EB24C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99872BF3F6E924A8BF225544 /* Pods-TBLearning.debug.xcconfig */,
+				74056DC66AB7AE1999238DCF /* Pods-TBLearning.release.xcconfig */,
+				4556C6E2AB7CE91BF0AD4FF9 /* Pods-TBLearningTests.debug.xcconfig */,
+				2742A731906935A0D27D55A5 /* Pods-TBLearningTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B233BEE150CEEB67EBF4E1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA2B0E4786DCBF739F51FD2 /* Pods_TBLearning.framework */,
+				9CF7B014D6B33F05B3040757 /* Pods_TBLearningTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		581731981FC251A0000F950D /* MemberView */ = {
+			isa = PBXGroup;
+			children = (
+				581731A51FC2612B000F950D /* quesTestCTV.swift */,
+				CEC1FD9E1FDDEA2300519052 /* answerOptionTableViewCell.swift */,
+				581731A71FC262FC000F950D /* questionCollectionViewCell.swift */,
+				586217921FC38D9100ACBD28 /* answerOptionCell.xib */,
+			);
+			path = MemberView;
+			sourceTree = "<group>";
+		};
+		CE0410DE1F81904000CBC87F = {
+			isa = PBXGroup;
+			children = (
+				CE0410E91F81904000CBC87F /* TBLearning */,
+				CE0411011F81904100CBC87F /* TBLearningTests */,
+				CE0410E81F81904000CBC87F /* Products */,
+				CE811AB51FDDF8B000E15DA5 /* Charts.xcodeproj */,
+				07302B0530653FF4424EB24C /* Pods */,
+				4B233BEE150CEEB67EBF4E1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE0410E81F81904000CBC87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE0410E71F81904000CBC87F /* TBLearning.app */,
+				CE0410FE1F81904100CBC87F /* TBLearningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE0410E91F81904000CBC87F /* TBLearning */ = {
+			isa = PBXGroup;
+			children = (
+				CE0410F91F81904000CBC87F /* Info.plist */,
+				CEC1FD9D1FDDE8D100519052 /* Utilities & Extensions */,
+				CE8E31C01FACDEDC00C05CFA /* Service Client */,
+				CE04110E1F81905D00CBC87F /* Main */,
+				CE04110D1F81904B00CBC87F /* Supporting Files */,
+				CE04110F1F81906800CBC87F /* Persistence */,
+			);
+			path = TBLearning;
+			sourceTree = "<group>";
+		};
+		CE0411011F81904100CBC87F /* TBLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0411181F819E3400CBC87F /* Testing FIles */,
+				CE0411021F81904100CBC87F /* CoreDataManagerTest.swift */,
+				CE0411041F81904100CBC87F /* Info.plist */,
+				CE04111C1F81BBBD00CBC87F /* QuizPersistenceTest.swift */,
+			);
+			path = TBLearningTests;
+			sourceTree = "<group>";
+		};
+		CE04110D1F81904B00CBC87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1E4F471F83320A004716FA /* IBdesignables */,
+				CE1E4F401F8324BD004716FA /* bgImages */,
+				CE0410EA1F81904000CBC87F /* AppDelegate.swift */,
+				CE0410F41F81904000CBC87F /* Assets.xcassets */,
+				CE046BEC1FD4BFB500AE4A88 /* clock.png */,
+				CE0410F61F81904000CBC87F /* LaunchScreen.storyboard */,
+				CE6F99E91FBF9E1A00BD0E88 /* LaunchViewController.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE04110E1F81905D00CBC87F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE0410EE1F81904000CBC87F /* Main.storyboard */,
+				CEC1FD951FDDE6B900519052 /* LogIn */,
+				CEC1FD961FDDE6DE00519052 /* CourseList */,
+				CEC1FD971FDDE74E00519052 /* IndividualQuiz */,
+				CEC1FD9A1FDDE82B00519052 /* WaitingRoom */,
+				CEC1ABC01FC79AA900BB8031 /* groupQuiz */,
+				CEC1FD9B1FDDE86600519052 /* Statistic */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CE04110F1F81906800CBC87F /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				CE0410F11F81904000CBC87F /* TBLearning.xcdatamodeld */,
+				CE0411101F8190A200CBC87F /* CoreDataManager.swift */,
+				CE7452C01FC0005200FFA715 /* DataManager.swift */,
+				CE7452CA1FC2128F00FFA715 /* UserPersistence */,
+				CE7452D11FC212B000FFA715 /* QuizPersistence */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		CE0411181F819E3400CBC87F /* Testing FIles */ = {
+			isa = PBXGroup;
+			children = (
+				CE04111F1F81BE3800CBC87F /* quiz_payload.json */,
+			);
+			path = "Testing FIles";
+			sourceTree = "<group>";
+		};
+		CE1E4F401F8324BD004716FA /* bgImages */ = {
+			isa = PBXGroup;
+			children = (
+				CE032D221FDC5509002E8D47 /* keypad.png */,
+				CE8FC18A1FC73DE400ADFC7A /* ic_esi_logo.png */,
+				CE8FC18B1FC73DE500ADFC7A /* ic_math_and_cs.png */,
+				CEF816B11FB66419009C355B /* leaderBackLabelStyle.png */,
+				CEF816B31FB66528009C355B /* member.png */,
+				CE8FC18E1FC73E8100ADFC7A /* logo.png */,
+				CE6F99EB1FBFA0C900BD0E88 /* Logo2.png */,
+				CE013A681F84071F00EA8EFD /* courseIcon.png */,
+				CE8FC1941FC7418000ADFC7A /* TBLearningLogo.png */,
+				CE1E4F411F8324CD004716FA /* bg.png */,
+				CEF816AD1FB65C8B009C355B /* leader.png */,
+				CE1E4F451F83300A004716FA /* umsl-campus-msc.png */,
+				CE1E4F461F83300A004716FA /* umsl-lib.png */,
+				CE1E4F561F834CD7004716FA /* userLogInIcon.png */,
+			);
+			path = bgImages;
+			sourceTree = "<group>";
+		};
+		CE1E4F471F83320A004716FA /* IBdesignables */ = {
+			isa = PBXGroup;
+			children = (
+				5851E6161FC552C400FB7C4D /* CustomSegue.swift */,
+				CE1E4F4A1F8348B8004716FA /* DesignableButton.swift */,
+				CE1E4F521F834BAC004716FA /* BounceButton.swift */,
+				CE1E4F541F834BFF004716FA /* DesignableView.swift */,
+			);
+			path = IBdesignables;
+			sourceTree = "<group>";
+		};
+		CE7452CA1FC2128F00FFA715 /* UserPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				CE7452CB1FC212A800FFA715 /* UserInfoCoreDataExtension.swift */,
+				CE7452CD1FC212A800FFA715 /* UserModel.swift */,
+				CE7452CC1FC212A800FFA715 /* UserPersistence.swift */,
+			);
+			path = UserPersistence;
+			sourceTree = "<group>";
+		};
+		CE7452D11FC212B000FFA715 /* QuizPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				CE0411161F819C4B00CBC87F /* QuizPersistence.swift */,
+				CEFDE3B51FD6770F006C1923 /* QuestionExtension.swift */,
+				CE0411211F81C23900CBC87F /* QuizExtension.swift */,
+				CEA4EF521F8DB56500470A84 /* QuizService.swift */,
+				CEA76A8D1FD8A94B00F66AD0 /* GroupQuizPersistence.swift */,
+				CEA76A8F1FD8AAFC00F66AD0 /* GroupQuizExtension.swift */,
+				CECC87F11FD9BF0700478F22 /* GroupQuizDataService.swift */,
+			);
+			path = QuizPersistence;
+			sourceTree = "<group>";
+		};
+		CE811AB61FDDF8B000E15DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE811ABB1FDDF8B000E15DA5 /* Charts.framework */,
+				CE811ABD1FDDF8B000E15DA5 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8E31C01FACDEDC00C05CFA /* Service Client */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E31C11FACDEF500C05CFA /* BaseServiceClient.swift */,
+				CE8E31C31FACDF4000C05CFA /* ServiceClient.swift */,
+				CE4732981F9039F000E6F2AE /* IndividualQuizService.swift */,
+				CEE3FF611FB129DD004EC231 /* GroupQuizService.swift */,
+			);
+			path = "Service Client";
+			sourceTree = "<group>";
+		};
+		CEC1ABC01FC79AA900BB8031 /* groupQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1FD9C1FDDE89D00519052 /* LeaderView */,
+				581731981FC251A0000F950D /* MemberView */,
+			);
+			path = groupQuiz;
+			sourceTree = "<group>";
+		};
+		CEC1FD951FDDE6B900519052 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				CE60A6A51F8FDA0700715FC8 /* LoginService.swift */,
+				CE0410EC1F81904000CBC87F /* TBLLogInVC.swift */,
+				CE1E4F5C1F83601A004716FA /* UserLoginVC.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		CEC1FD961FDDE6DE00519052 /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				CE60A6A71F8FE01700715FC8 /* CourseModel.swift */,
+				CE013AB71F846B3700EA8EFD /* CourseListTableViewController.swift */,
+				CE013AB81F846B3700EA8EFD /* CourseTVCell.swift */,
+			);
+			path = CourseList;
+			sourceTree = "<group>";
+		};
+		CEC1FD971FDDE74E00519052 /* IndividualQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				CECC85611FBA534500633467 /* QuizVC.swift */,
+				CE0752B71FBD567C00735AC0 /* QuizQuestionVC.swift */,
+				CE0363C11FBA9D9E00D1B30A /* QuizCollectionViewCell.swift */,
+				CE0752B51FBD49F200735AC0 /* AnswerTableViewCell.swift */,
+				CEC1FD991FDDE7EF00519052 /* tableViewCell */,
+			);
+			path = IndividualQuiz;
+			sourceTree = "<group>";
+		};
+		CEC1FD991FDDE7EF00519052 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				14C5B34C1FDDEECC004DA6AA /* answerOptionWithImageTableViewCell.swift */,
+				CEA76A941FD8B18F00F66AD0 /* answerOptionWithImageTableViewCell.xib */,
+				5851E60E1FC5275000FB7C4D /* choiceView.xib */,
+				5851E6121FC528EC00FB7C4D /* AnswerOptionButtonView.swift */,
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		CEC1FD9A1FDDE82B00519052 /* WaitingRoom */ = {
+			isa = PBXGroup;
+			children = (
+				CEF816A91FB64A04009C355B /* GroupQuizProgressLabel.swift */,
+				CEF816A61FB63EC6009C355B /* customLabelView.swift */,
+				CEF816B51FB66C3E009C355B /* GroupProgressTVCellTableViewCell.swift */,
+				CEF816B71FB66C82009C355B /* WaitingRoomVC.swift */,
+			);
+			path = WaitingRoom;
+			sourceTree = "<group>";
+		};
+		CEC1FD9B1FDDE86600519052 /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EA1BE1FDB9935006DAA9A /* StatisticVC.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		CEC1FD9C1FDDE89D00519052 /* LeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1ABC51FC7B4D300BB8031 /* groupQuizVC.swift */,
+				CEC1ABC11FC79AD800BB8031 /* groupQuizTableViewCell.swift */,
+				CEC1ABC21FC79AD800BB8031 /* groupQuizTableViewCell.xib */,
+				CECC87F31FD9E5B200478F22 /* groupQuizWithImageTableViewCell.swift */,
+				CECC87F41FD9E5B200478F22 /* groupQuizWithImageTableViewCell.xib */,
+			);
+			path = LeaderView;
+			sourceTree = "<group>";
+		};
+		CEC1FD9D1FDDE8D100519052 /* Utilities & Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E31C51FACE21000C05CFA /* Log.swift */,
+				CED3A9A91F896A880058CABB /* Utilities & Extensions.swift */,
+				CE7452BE1FBFFE7400FFA715 /* StringExtension.swift */,
+				CEA76A971FD8BE0900F66AD0 /* UIImageExtension.swift */,
+				581731AB1FC29D05000F950D /* NotificationNameExtension.swift */,
+				CE1E4F5A1F8352C6004716FA /* AlertController.swift */,
+			);
+			path = "Utilities & Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE0410E61F81904000CBC87F /* TBLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0411071F81904100CBC87F /* Build configuration list for PBXNativeTarget "TBLearning" */;
+			buildPhases = (
+				4FB27B0A54D9A497B796CDEE /* [CP] Check Pods Manifest.lock */,
+				CE0410E31F81904000CBC87F /* Sources */,
+				CE0410E41F81904000CBC87F /* Frameworks */,
+				CE0410E51F81904000CBC87F /* Resources */,
+				CEF792D01FDCD21500829A02 /* Embed Frameworks */,
+				B7DEBC7297023FEDECA085EB /* [CP] Embed Pods Frameworks */,
+				F5F9E363A166AC9F77D4A006 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE811AC11FDDF8E400E15DA5 /* PBXTargetDependency */,
+			);
+			name = TBLearning;
+			productName = TBLearning;
+			productReference = CE0410E71F81904000CBC87F /* TBLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE0410FD1F81904100CBC87F /* TBLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE04110A1F81904100CBC87F /* Build configuration list for PBXNativeTarget "TBLearningTests" */;
+			buildPhases = (
+				6F15EAAE0A8E7B34960B3FC1 /* [CP] Check Pods Manifest.lock */,
+				CE0410FA1F81904100CBC87F /* Sources */,
+				CE0410FB1F81904100CBC87F /* Frameworks */,
+				CE0410FC1F81904100CBC87F /* Resources */,
+				E0A2A9E7826DBA45EFC1A56B /* [CP] Embed Pods Frameworks */,
+				3D0FEC4C092558E1BA0F04DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0411001F81904100CBC87F /* PBXTargetDependency */,
+			);
+			name = TBLearningTests;
+			productName = TBLearningTests;
+			productReference = CE0410FE1F81904100CBC87F /* TBLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE0410DF1F81904000CBC87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = frontOfClassTeam;
+				TargetAttributes = {
+					CE0410E61F81904000CBC87F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					CE0410FD1F81904100CBC87F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE0410E61F81904000CBC87F;
+					};
+				};
+			};
+			buildConfigurationList = CE0410E21F81904000CBC87F /* Build configuration list for PBXProject "TBLearning" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE0410DE1F81904000CBC87F;
+			productRefGroup = CE0410E81F81904000CBC87F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE811AB61FDDF8B000E15DA5 /* Products */;
+					ProjectRef = CE811AB51FDDF8B000E15DA5 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CE0410E61F81904000CBC87F /* TBLearning */,
+				CE0410FD1F81904100CBC87F /* TBLearningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE811ABB1FDDF8B000E15DA5 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = CE811ABA1FDDF8B000E15DA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE811ABD1FDDF8B000E15DA5 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = CE811ABC1FDDF8B000E15DA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE0410E51F81904000CBC87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC87F61FD9E5B200478F22 /* groupQuizWithImageTableViewCell.xib in Resources */,
+				CE8FC18C1FC73DE500ADFC7A /* ic_esi_logo.png in Resources */,
+				5851E60F1FC5275000FB7C4D /* choiceView.xib in Resources */,
+				CEA76A961FD8B18F00F66AD0 /* answerOptionWithImageTableViewCell.xib in Resources */,
+				CE0410F81F81904000CBC87F /* LaunchScreen.storyboard in Resources */,
+				CEC1ABC41FC79AD800BB8031 /* groupQuizTableViewCell.xib in Resources */,
+				CEF816AE1FB65C8B009C355B /* leader.png in Resources */,
+				CE032D231FDC550A002E8D47 /* keypad.png in Resources */,
+				CE8FC18D1FC73DE500ADFC7A /* ic_math_and_cs.png in Resources */,
+				CEF816B21FB6641A009C355B /* leaderBackLabelStyle.png in Resources */,
+				CE0410F51F81904000CBC87F /* Assets.xcassets in Resources */,
+				CE0410F01F81904000CBC87F /* Main.storyboard in Resources */,
+				CE8FC18F1FC73E8100ADFC7A /* logo.png in Resources */,
+				CE8FC1951FC7418000ADFC7A /* TBLearningLogo.png in Resources */,
+				CE046BED1FD4BFB600AE4A88 /* clock.png in Resources */,
+				CE6F99EC1FBFA0C900BD0E88 /* Logo2.png in Resources */,
+				586217941FC38D9100ACBD28 /* answerOptionCell.xib in Resources */,
+				CEF816B41FB66529009C355B /* member.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0410FC1F81904100CBC87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0411201F81BE3900CBC87F /* quiz_payload.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D0FEC4C092558E1BA0F04DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBLearningTests/Pods-TBLearningTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB27B0A54D9A497B796CDEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TBLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F15EAAE0A8E7B34960B3FC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TBLearningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DEBC7297023FEDECA085EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TBLearning/Pods-TBLearning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBLearning/Pods-TBLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A2A9E7826DBA45EFC1A56B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBLearningTests/Pods-TBLearningTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F9E363A166AC9F77D4A006 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBLearning/Pods-TBLearning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE0410E31F81904000CBC87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0411171F819C4B00CBC87F /* QuizPersistence.swift in Sources */,
+				CE8E31C61FACE21000C05CFA /* Log.swift in Sources */,
+				CEA76A981FD8BE0900F66AD0 /* UIImageExtension.swift in Sources */,
+				CEA4EF531F8DB56500470A84 /* QuizService.swift in Sources */,
+				5851E6131FC528EC00FB7C4D /* AnswerOptionButtonView.swift in Sources */,
+				581731A81FC262FC000F950D /* questionCollectionViewCell.swift in Sources */,
+				CE0410ED1F81904000CBC87F /* TBLLogInVC.swift in Sources */,
+				CEC1FD9F1FDDEA2300519052 /* answerOptionTableViewCell.swift in Sources */,
+				CE0363C21FBA9D9F00D1B30A /* QuizCollectionViewCell.swift in Sources */,
+				581731A61FC2612C000F950D /* quesTestCTV.swift in Sources */,
+				CE0752B61FBD49F200735AC0 /* AnswerTableViewCell.swift in Sources */,
+				CE7452CE1FC212A900FFA715 /* UserInfoCoreDataExtension.swift in Sources */,
+				CECC87F21FD9BF0700478F22 /* GroupQuizDataService.swift in Sources */,
+				581731AC1FC29D05000F950D /* NotificationNameExtension.swift in Sources */,
+				CE60A6A61F8FDA0700715FC8 /* LoginService.swift in Sources */,
+				CEF816AA1FB64A04009C355B /* GroupQuizProgressLabel.swift in Sources */,
+				CE1E4F4B1F8348B8004716FA /* DesignableButton.swift in Sources */,
+				CE60A6A81F8FE01700715FC8 /* CourseModel.swift in Sources */,
+				CE6F99EA1FBF9E1A00BD0E88 /* LaunchViewController.swift in Sources */,
+				CEF816B81FB66C82009C355B /* WaitingRoomVC.swift in Sources */,
+				CEF816A81FB63EC6009C355B /* customLabelView.swift in Sources */,
+				CE0410F31F81904000CBC87F /* TBLearning.xcdatamodeld in Sources */,
+				CE8E31C41FACDF4000C05CFA /* ServiceClient.swift in Sources */,
+				CECC85621FBA534500633467 /* QuizVC.swift in Sources */,
+				CEA76A901FD8AAFC00F66AD0 /* GroupQuizExtension.swift in Sources */,
+				CE0411111F8190A200CBC87F /* CoreDataManager.swift in Sources */,
+				14C5B34D1FDDEECD004DA6AA /* answerOptionWithImageTableViewCell.swift in Sources */,
+				CE3EA1BF1FDB9935006DAA9A /* StatisticVC.swift in Sources */,
+				CEFDE3B61FD6770F006C1923 /* QuestionExtension.swift in Sources */,
+				CECC87F51FD9E5B200478F22 /* groupQuizWithImageTableViewCell.swift in Sources */,
+				5851E6171FC552C400FB7C4D /* CustomSegue.swift in Sources */,
+				CE013ABA1F846B3700EA8EFD /* CourseTVCell.swift in Sources */,
+				CEE3FF621FB129DD004EC231 /* GroupQuizService.swift in Sources */,
+				CE7452CF1FC212A900FFA715 /* UserPersistence.swift in Sources */,
+				CEC1ABC61FC7B4D300BB8031 /* groupQuizVC.swift in Sources */,
+				CEC1ABC31FC79AD800BB8031 /* groupQuizTableViewCell.swift in Sources */,
+				CEA76A8E1FD8A94B00F66AD0 /* GroupQuizPersistence.swift in Sources */,
+				CE0752B81FBD567D00735AC0 /* QuizQuestionVC.swift in Sources */,
+				CEF816B61FB66C3E009C355B /* GroupProgressTVCellTableViewCell.swift in Sources */,
+				CE7452BF1FBFFE7400FFA715 /* StringExtension.swift in Sources */,
+				CE1E4F531F834BAC004716FA /* BounceButton.swift in Sources */,
+				CE0411221F81C23900CBC87F /* QuizExtension.swift in Sources */,
+				CE1E4F5D1F83601A004716FA /* UserLoginVC.swift in Sources */,
+				CE0410EB1F81904000CBC87F /* AppDelegate.swift in Sources */,
+				CE7452D01FC212A900FFA715 /* UserModel.swift in Sources */,
+				CE013AB91F846B3700EA8EFD /* CourseListTableViewController.swift in Sources */,
+				CE4732991F9039F000E6F2AE /* IndividualQuizService.swift in Sources */,
+				CE7452C11FC0005200FFA715 /* DataManager.swift in Sources */,
+				CE8E31C21FACDEF500C05CFA /* BaseServiceClient.swift in Sources */,
+				CE1E4F5B1F835384004716FA /* AlertController.swift in Sources */,
+				CE1E4F551F834BFF004716FA /* DesignableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0410FA1F81904100CBC87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE04111D1F81BBBD00CBC87F /* QuizPersistenceTest.swift in Sources */,
+				CE0411031F81904100CBC87F /* CoreDataManagerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE0411001F81904100CBC87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0410E61F81904000CBC87F /* TBLearning */;
+			targetProxy = CE0410FF1F81904100CBC87F /* PBXContainerItemProxy */;
+		};
+		CE811AC11FDDF8E400E15DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = CE811AC01FDDF8E400E15DA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE0410EE1F81904000CBC87F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0410EF1F81904000CBC87F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE0410F61F81904000CBC87F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0410F71F81904000CBC87F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE0411051F81904100CBC87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE0411061F81904100CBC87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE0411081F81904100CBC87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99872BF3F6E924A8BF225544 /* Pods-TBLearning.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K2SG6TT9K;
+				INFOPLIST_FILE = TBLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.TBLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE0411091F81904100CBC87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74056DC66AB7AE1999238DCF /* Pods-TBLearning.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K2SG6TT9K;
+				INFOPLIST_FILE = TBLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.TBLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE04110B1F81904100CBC87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4556C6E2AB7CE91BF0AD4FF9 /* Pods-TBLearningTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.TBLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBLearning.app/TBLearning";
+			};
+			name = Debug;
+		};
+		CE04110C1F81904100CBC87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2742A731906935A0D27D55A5 /* Pods-TBLearningTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TBLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.TBLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBLearning.app/TBLearning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE0410E21F81904000CBC87F /* Build configuration list for PBXProject "TBLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0411051F81904100CBC87F /* Debug */,
+				CE0411061F81904100CBC87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0411071F81904100CBC87F /* Build configuration list for PBXNativeTarget "TBLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0411081F81904100CBC87F /* Debug */,
+				CE0411091F81904100CBC87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE04110A1F81904100CBC87F /* Build configuration list for PBXNativeTarget "TBLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE04110B1F81904100CBC87F /* Debug */,
+				CE04110C1F81904100CBC87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE0410F11F81904000CBC87F /* TBLearning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE0410F21F81904000CBC87F /* TBLearning.xcdatamodel */,
+			);
+			currentVersion = CE0410F21F81904000CBC87F /* TBLearning.xcdatamodel */;
+			path = TBLearning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE0410DF1F81904000CBC87F /* Project object */;
+}

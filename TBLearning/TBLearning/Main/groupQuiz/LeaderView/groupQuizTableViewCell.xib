@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="86" id="KGk-i7-Jjw" customClass="groupQuizTableViewCell" customModule="TBLearning" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="330" height="85.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcw-rH-BLr">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="85.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="IJw-df-3iR">
+                                <rect key="frame" x="10" y="5" width="231" height="75.5"/>
+                                <color key="backgroundColor" red="0.58527328690000002" green="0.81498923000000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V0i-08-Ks3">
+                                <rect key="frame" x="241" y="0.0" width="79" height="85.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUq-O8-SOK" customClass="DesignableButton" customModule="TBLearning" customModuleProvider="target">
+                                        <rect key="frame" x="4" y="7" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="GFh-zC-nnk"/>
+                                            <constraint firstAttribute="width" constant="70" id="RQD-6x-gfZ"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="answerOptoinBtnTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="l7t-cm-XVr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hUq-O8-SOK" firstAttribute="centerY" secondItem="V0i-08-Ks3" secondAttribute="centerY" id="H6z-21-I23"/>
+                                    <constraint firstItem="hUq-O8-SOK" firstAttribute="centerX" secondItem="V0i-08-Ks3" secondAttribute="centerX" id="WYt-GF-dR1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="IJw-df-3iR" secondAttribute="bottom" constant="5" id="1MT-qi-R1G"/>
+                            <constraint firstItem="IJw-df-3iR" firstAttribute="leading" secondItem="qcw-rH-BLr" secondAttribute="leading" constant="10" id="Dv3-yZ-Tp1"/>
+                            <constraint firstItem="IJw-df-3iR" firstAttribute="width" secondItem="qcw-rH-BLr" secondAttribute="width" multiplier="0.7" id="M4E-2U-b6l"/>
+                            <constraint firstAttribute="bottom" secondItem="V0i-08-Ks3" secondAttribute="bottom" id="VoV-eW-Vmq"/>
+                            <constraint firstItem="V0i-08-Ks3" firstAttribute="top" secondItem="qcw-rH-BLr" secondAttribute="top" id="eNk-Id-YZy"/>
+                            <constraint firstItem="V0i-08-Ks3" firstAttribute="width" secondItem="qcw-rH-BLr" secondAttribute="width" multiplier="0.24" id="jse-Js-CIQ"/>
+                            <constraint firstItem="IJw-df-3iR" firstAttribute="top" secondItem="qcw-rH-BLr" secondAttribute="top" constant="5" id="tUD-Mj-bpq"/>
+                            <constraint firstAttribute="trailing" secondItem="V0i-08-Ks3" secondAttribute="trailing" constant="10" id="yB8-2K-ivP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qcw-rH-BLr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="4yb-SQ-i19"/>
+                    <constraint firstItem="qcw-rH-BLr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JyC-cH-0x7"/>
+                    <constraint firstAttribute="bottom" secondItem="qcw-rH-BLr" secondAttribute="bottom" id="P04-cB-b4I"/>
+                    <constraint firstAttribute="trailing" secondItem="qcw-rH-BLr" secondAttribute="trailing" id="pUA-Sk-eST"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="answerChoiceLabel" destination="IJw-df-3iR" id="LgN-DR-jD7"/>
+                <outlet property="answerOptionBtn" destination="hUq-O8-SOK" id="acO-ff-oIQ"/>
+            </connections>
+            <point key="canvasLocation" x="39" y="75"/>
+        </tableViewCell>
+    </objects>
+</document>

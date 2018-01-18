@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by FrontOfClass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpj-13-yaH">
+                                <rect key="frame" x="0.0" y="513.5" width="375" height="133.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0dk-lU-CjX" userLabel="sponserStack">
+                                <rect key="frame" x="0.0" y="623.5" width="375" height="43.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_esi_logo" translatesAutoresizingMaskIntoConstraints="NO" id="qgE-MP-6GG">
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="43.5"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_math_and_cs" translatesAutoresizingMaskIntoConstraints="NO" id="N86-Oi-gu7">
+                                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="43.5"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aEF-lA-1Ri">
+                                <rect key="frame" x="87" y="143.5" width="200" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TBLearningLogo" translatesAutoresizingMaskIntoConstraints="NO" id="m8y-rf-aov">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="m8y-rf-aov" firstAttribute="leading" secondItem="aEF-lA-1Ri" secondAttribute="leading" id="XKC-Go-BrO"/>
+                                    <constraint firstAttribute="bottom" secondItem="m8y-rf-aov" secondAttribute="bottom" id="bRR-LU-tYg"/>
+                                    <constraint firstAttribute="height" constant="200" id="cai-ZC-ISS"/>
+                                    <constraint firstAttribute="trailing" secondItem="m8y-rf-aov" secondAttribute="trailing" id="hsO-fw-HFq"/>
+                                    <constraint firstAttribute="width" constant="200" id="o5O-uR-GYG"/>
+                                    <constraint firstItem="m8y-rf-aov" firstAttribute="top" secondItem="aEF-lA-1Ri" secondAttribute="top" id="yxG-1Z-tak"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hpj-13-yaH" secondAttribute="bottom" constant="20" id="4xe-WC-IlP"/>
+                            <constraint firstAttribute="trailing" secondItem="0dk-lU-CjX" secondAttribute="trailing" id="75H-OV-gba"/>
+                            <constraint firstItem="hpj-13-yaH" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.2" id="GCJ-o4-dzI"/>
+                            <constraint firstItem="aEF-lA-1Ri" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-100" id="Jet-Jd-YBN"/>
+                            <constraint firstItem="0dk-lU-CjX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OFA-xu-QcK"/>
+                            <constraint firstItem="hpj-13-yaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="asb-hM-Rx9"/>
+                            <constraint firstAttribute="bottom" secondItem="0dk-lU-CjX" secondAttribute="bottom" id="fLb-CA-IrR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hpj-13-yaH" secondAttribute="trailing" id="nIA-W9-yzi"/>
+                            <constraint firstItem="0dk-lU-CjX" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.065" id="tI5-ds-e2n"/>
+                            <constraint firstItem="aEF-lA-1Ri" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="y4B-JB-gZ1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TBLearningLogo" width="500" height="500"/>
+        <image name="ic_esi_logo" width="800" height="166"/>
+        <image name="ic_math_and_cs" width="800" height="166"/>
+    </resources>
+</document>
